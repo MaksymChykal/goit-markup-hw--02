@@ -61,21 +61,21 @@ color: #212121
 }
 .staff-list {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.03em;
-color: #212121
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121
 }
 .staff-position {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
-color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #757575;
 
 }
 .features-title {
@@ -95,13 +95,16 @@ color: #757575;
         font-style: normal;
         font-weight: 700;
         color:#212121;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
     }
 .features-list {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
+font-size: 14px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 
 color: #757575;
@@ -111,6 +114,9 @@ color: #757575;
     font-style: normal;
     font-weight: 400;
     color: #757575;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
 
 
@@ -173,10 +179,6 @@ letter-spacing: 0.02em;
 
 }
 .resume {
-    width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -185,8 +187,9 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 }
-.resume:hover,:focus { 
-    color: var(--accent-color);
+.resume:hover, 
+.resume:focus { 
+    color: #2196F3;
 
 }
 .contact{
@@ -264,7 +267,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.8;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -307,26 +310,26 @@ color: black;
 }
 .link-2 {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
-.link-2 :hover,:focus{
-    color: var(--accent-color);
+.link-2:hover,:focus{
+    color: var(--#fff);
 }
-.portfolio-2 {
+.resume-2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(#2196F3);
+    color: #2196F3;
 }
-.portfolio-2:hover,:focus{
+.resume-2:hover,:focus{
     color: var(--title-text-color);
 }
 .nav-second-list a:hover,:focus {
